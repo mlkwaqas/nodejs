@@ -1,0 +1,11 @@
+html
+   head
+   body
+      h1 Following are the titles of given websites:
+      ul
+         if titles
+            each entry in titles
+               li= entry['address'] + ' - ' + '"' + entry['value'] + '"'
+         else
+            p No address is given
+

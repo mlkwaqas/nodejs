@@ -1,0 +1,19 @@
+{
+  "name": "nodeexpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "express.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.4.0",
+    "cheerio": "^0.19.0",
+    "express": "^4.13.1",
+    "jade": "^1.11.0",
+    "request": "^2.60.0",
+    "rsvp": "^3.0.18"
+  }
+}
